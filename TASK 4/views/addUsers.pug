@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/routes/main.js")
+        link(rel="stylesheet", href="/routes/AddUsers.js")
+        title #{Title}
+    body 
+    header.mainHeader 
+      nav.MainNav 
+       ul.MainUl 
+        li.MainHeader-item 
+          a.Main-item(href="/users") Users List 
+        li.MainHeader-item
+          a.Main-item(href="/") Add User 
+    main 
+    
+    form.Usersform(action="/",method="POST")
+       .form-control 
+        label(for="Title") Type username: 
+          input(type="text", name="title")#title
+          button.bttn(type="submit") Add User

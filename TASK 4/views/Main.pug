@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/routes/main.js")
+        link(rel="stylesheet", href="/routes/AddUsers.js")
+        link(rel="stylesheet", href="/views/flex.css")
+        title #{Title}
+    body 
+    header.mainHeader 
+      nav.MainNav 
+       ul.MainUl 
+        li.MainHeader-item 
+          a.Main-item(href="/users") Users List 
+        li.MainHeader-item
+          a.Main-item(href="/") Add User 
+    main 
+      if user>0
+      .cont 
+       each  user in Users
+            article.card.product-item
+                header.card__header
+                h3.newuss New User Is Registered!
+                  h1.product__title #{user.title}
+                  div.card__image
+                    img(src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png " alt="New User") 
+                    
+       else 
+         h1 The List Is Empthy             
