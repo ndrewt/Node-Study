@@ -1,3 +1,3 @@
 ﻿# NodeStudy
 
-Node Study by <andrew1tarnavskyi@gmail.com>
+Node Study by <and1tarnavskyi@gmail.com>
