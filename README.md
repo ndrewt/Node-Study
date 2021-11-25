@@ -7,6 +7,8 @@
 Working with project installation and using!
 ***To run and work with code you need:↓***
 Install Node.js from [official site ](https://nodejs.org/en/download/)
-<span style="color: green"> Install node dependencies  in your terminal by : <span style="color: yellow"> npm install</span> </span>
+..
+$ npm install
+...
 <br/>
 
