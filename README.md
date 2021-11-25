@@ -3,7 +3,7 @@
 
 
 ![markdown logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxLa5xKHEQQDDqgA91ec9GoHr2-UEs6jKlDQ&usqp=CAU)
-##Download Node.js from the [official site](https://nodejs.org/en/download/)
+## Download Node.js from the [official site](https://nodejs.org/en/download/)
 ## Working with project installation 
 To work with project firstly you need to **install npm dependencies** in your terminal by ↓
 ```
