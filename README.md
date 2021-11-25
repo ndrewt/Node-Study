@@ -1,5 +1,5 @@
 ﻿# NodeStudy
-**Node Study by **<and1tarnavskyi@gmail.com>
+**Node Study by**<and1tarnavskyi@gmail.com>
 ## Working with project installation and using!
 Working with project installation and using!
 -![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=To run and work with code you need:↓) 
